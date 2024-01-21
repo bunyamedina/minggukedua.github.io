@@ -1,0 +1,88 @@
+/* styles.css */
+h1, h2, p{
+    text-align: center;
+}
+
+body {
+    background-image: url(https://i.ibb.co/KDbJWf9/1413904353981.jpg);
+    background-position: bottom;background-size: 152%;
+    background-repeat: inherit;
+    opacity: 85%;
+    background-blend-mode: hard-light;
+    background-color: rgb(171, 209, 255);
+    font-family: sans-serif;
+    padding: 20px;
+
+}
+.menu {
+    background-color: hsl(0, 0%, 100%);
+    width: 90%;
+    max-width: 500px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 20px;
+
+}
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+h1, h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.established{
+    font-style: italic;
+}
+h1{
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 15px;
+
+}
+h2{
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+hr{
+    height: 2.5px;
+    background-color: rgb(137, 178, 255);
+    border-color: rgb(255, 255, 255);
+}
+.bottom-line{
+    margin-top: 25px;
+}
+/* FOOTER */
+footer{
+    font-size: 14px;
+}
+a{
+    color: black;
+}
+a:visited{
+color: black;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color:blue;
+}
+.address{
+    margin-bottom: 5px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
